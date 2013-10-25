@@ -3,7 +3,6 @@
 *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; 
 }
 
 html,
@@ -135,7 +134,7 @@ select {
   margin-top: 0;
   margin-bottom: 0;
   max-width: 62.5em;
-  zoom: 1; }
+  }
 
 .row:before, .row:after {
   content: " ";
@@ -151,7 +150,7 @@ select {
   margin-top: 0;
   margin-bottom: 0;
   max-width: none;
-  zoom: 1; }
+  }
 
 .row .row:before, .row .row:after {
   content: " ";

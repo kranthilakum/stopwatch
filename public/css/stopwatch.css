@@ -5,7 +5,6 @@
   padding-right: 0.9375em;
   float: left; }
 
-
 [class*="column"] + [class*="column"]:last-child {
   float: right; }
 
@@ -22,28 +21,6 @@
 .large-12 {
   position: relative;
   width: 100%; }
-}
-
-/* Medium Displays: 768px - 1279px */
-@media only screen and (min-width: 768px) {
-}
-/* Large Displays: 1280px - 1440px */
-@media only screen and (min-width: 1280px) {
-}
-/* X-Large Displays: 1400px and up */
-@media only screen and (min-width: 1440px) {
-}
-
-@media only screen and (orientation: landscape) {
-}
-@media only screen and (orientation: portrait) {
-}
-
-@media only screen {
-
-}
-@media only screen and (min-width: 768px) {
-
 }
 
 @media only screen and (min-width: 768px) {
@@ -181,13 +158,11 @@ textarea {
   width: 100%;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
   -webkit-transition: -webkit-box-shadow 0.45s, border-color 0.45s ease-in-out;
   -moz-transition: -moz-box-shadow 0.45s, border-color 0.45s ease-in-out;
   transition: box-shadow 0.45s, border-color 0.45s ease-in-out; }
 textarea:focus {
   -webkit-box-shadow: 0 0 5px #999999;
-  -moz-box-shadow: 0 0 5px #999999;
   box-shadow: 0 0 5px #999999;
   border-color: #999999; }
 textarea:focus {
@@ -203,11 +178,6 @@ border: solid 1px #dddddd;
 padding: 1.25em;
 margin: 1.125em 0; }
 
-
-@media only screen and (min-width: 768px) {}
-
-@media only screen and (min-width: 940px) {
-}
 @-webkit-keyframes rotate {
 from {
   -webkit-transform: rotate(0deg); }
@@ -236,17 +206,6 @@ from {
 to {
   transform: rotate(360deg); } }
 
-@media only screen and (min-width: 768px) {
-}
-@media only screen and (max-width: 768px) {
-}
-
-@media only screen and (min-width: 768px) {
-}
-
-/* Styles for screens that are atleast 768px; */
-@media only screen and (min-width: 768px) {
-}
 kbd {
   background-color: #ededed;
   border-color: #dbdbdb;
@@ -289,5 +248,3 @@ table {
   margin-bottom: 1.25em;
   border: solid 1px #dddddd; }
 
-@media only screen and (min-width: 768px) {
-}

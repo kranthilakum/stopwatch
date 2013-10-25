@@ -3,9 +3,10 @@ var theInterval;
 
 var	stopWatch = function() {
 
+	// initial
 	var	startTime = elapseTime = 0;
 
- 	// current time in milliseconds
+ 	// return current time in milliseconds
 	var	currentTime	= function() {
 		var theTime = new Date().getTime();
 		return theTime;
