@@ -11,7 +11,7 @@ var	stopWatch = function() {
 		return theTime;
 	};
 
-	// start state
+	// start or resume state
 	this.start = function() {
 		startTime = startTime ? startTime : currentTime();
 	};
@@ -27,6 +27,7 @@ var	stopWatch = function() {
 		elapseTime = startTime = 0;
 	};
 
+	// calculate duration
 	this.time = function() {
 		return elapseTime + (startTime ? currentTime() - startTime : 0); 
 	};
@@ -45,19 +46,19 @@ function updateTime() {
 	time.innerHTML = stringBuilder(stopwatch.time());
 }
 
-//	start the stopwatch
+//	start stopwatch
 function start() {
 	theInterval = setInterval("updateTime()", 1);
 	stopwatch.start();
 }
 
-// pause the stopwatch
+// pause stopwatch
 function pause() {
 	stopwatch.pause();
 	clearInterval(theInterval);
 }
 
-// reset the stopwatch
+// reset stopwatch
 function reset() {
 	pause();
 	stopwatch.reset();
