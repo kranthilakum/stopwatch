@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Stopwatch</title>
+		<link rel="stylesheet" href="css/stopwatch.css">
+		<link rel="stylesheet" href="css/basic.css">
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<script src="js/stopwatch.js" type="text/javascript"></script>
+	</head>
+
+	<body onload="displayTime();">
+	<div class="row">
+		<div class="large-12 columns">
+			<h2><img src="img/stopwatch.png" class="stopwatch">Stopwatch</h2>
+			<hr />
+		</div>
+	</div>
+	<div class="row">
+		<div class="large-8 columns">
+			<div class="row">
+				<div class="large-12 columns">
+					<div class="panel">
+						<div id="digits-panel" class="align">
+							<div id="time"></div>
+						</div>
+					</div>
+					<div id="control-panel" class="align">
+						<input id="start" class="button" type="button" value="Start" onclick="start();">
+						<input id="pause" class="button" type="button" value="Pause" onclick="pause();">
+						<input id="reset" class="button" type="button" value="Reset" onclick="reset()">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="large-4 columns">
+			<p>Stopwatch is a handheld timepiece designed to simply measure and display the time interval from an arbitrary starting point that begins at the instant when the stopwatch is started. The standard unit of time interval is the second (s). Seconds can be accumulated to form longer time intervals, such as minutes, hours, and days; or they can be sliced into fractions of a second such as milliseconds (ms) or microseconds.</p>
+			<h4>Getting Started</h4>
+			<p>Once you've exhausted the fun in playing with Stopwatch, you should check out:</p>
+			<ul class="none">
+				<li><a href="http://github.com/kranthilakum/stopwatch">Stopwatch on Github</a><br />For latest code, please visit the project page on Github</li>
+			</ul>
+		</div>
+	</div>
+	</body>
+</html>
