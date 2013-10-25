@@ -151,7 +151,7 @@ select {
   margin-top: 0;
   margin-bottom: 0;
   max-width: none;
-  *zoom: 1; }
+  zoom: 1; }
 
 .row .row:before, .row .row:after {
   content: " ";
